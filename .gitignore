@@ -63,3 +63,6 @@ lib/*/lib/*.lib
 lib/qtscript-bytearray/*.cc
 
 compile_commands.json
+
+# TODO(c3n7): Delete this
+.clangd/
