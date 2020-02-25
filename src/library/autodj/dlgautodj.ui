@@ -193,6 +193,13 @@
       </spacer>
      </item>
      <item>
+      <widget class="QPushButton" name="pushButtonTogglePanel">
+       <property name="text">
+        <string>Hide Panel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QLabel" name="labelSelectionInfo">
        <property name="text">
         <string/>
@@ -207,6 +214,117 @@
       <bool>true</bool>
      </property>
     </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayoutADJPanel">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutCues">
+       <item>
+        <widget class="QComboBox" name="comboBoxCuePointType"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonAddCue">
+         <property name="text">
+          <string>Add Cue</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonRemoveCue">
+         <property name="text">
+          <string>Remove Cue</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonAddEffect">
+         <property name="text">
+          <string>Add Effect</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonRemoveEffect">
+         <property name="text">
+          <string>Remove Effect</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonAddScratch">
+         <property name="text">
+          <string>Add Scratch</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonRemoveScratch">
+         <property name="text">
+          <string>Remove Scratch</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonSave">
+         <property name="text">
+          <string>Save</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutPlaylists">
+       <item>
+        <widget class="QPushButton" name="pushButtonOpenPlaylist">
+         <property name="text">
+          <string>Open Playlist</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonRegeneratePlaylist">
+         <property name="text">
+          <string>Regenerate Playlist</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelSelectedSongInfo">
+         <property name="text">
+          <string>selected song info</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
