@@ -193,16 +193,16 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButtonTogglePanel">
+      <widget class="QLabel" name="labelSelectionInfo">
        <property name="text">
-        <string>Hide Panel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="labelSelectionInfo">
+      <widget class="QPushButton" name="pushButtonTogglePanel">
        <property name="text">
-        <string/>
+        <string>Toggle Panel</string>
        </property>
       </widget>
      </item>
